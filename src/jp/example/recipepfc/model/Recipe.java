@@ -34,5 +34,8 @@ public class Recipe {
 		this.ingredients = ingredients;
 	}
 	
-	
+	/*@Override
+	public String toString() {
+		
+	}*/
 }
