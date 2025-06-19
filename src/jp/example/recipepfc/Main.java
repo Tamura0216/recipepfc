@@ -1,10 +1,12 @@
 package jp.example.recipepfc;
 
+import jp.example.recipepfc.controller.AppController;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-
+		AppController appController = new AppController();
+		appController.runApp();
 	}
 
 }
